@@ -5,7 +5,7 @@ const salesStaus = ['Aprovado', 'Em análise', 'Reprovado'];
 const generateCashbackPercentage = () => generateRandomNumber(2, 8);
 const generateSalesValue = () => generateRandomNumber(50, 950);
 const calculateCashbackValue = (value, percentage) => value * (percentage / 100);
-const generateRandomStatus = () => salesStaus[generateRandomNumber(0, 2)];
+const generateRandomStatus = () => salesStaus[generateRandomNumber(0, 3)];
 const getRandomUserId = (users) => users[generateRandomNumber(0, users.length)].id;
 
 const generateSalesObject = (users, numberOfRegisters) => {
