@@ -1,0 +1,23 @@
+{
+  "name": "api-mock-revendedor",
+  "version": "1.0.0",
+  "description": "This is a mock server to be consumed by other application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoskbnsk/api-mock-revendedor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoskbnsk/api-mock-revendedor/issues"
+  },
+  "homepage": "https://github.com/thiagoskbnsk/api-mock-revendedor#readme",
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
