@@ -3,13 +3,13 @@ const fs = require('fs');
 const users = require('./generates/users');
 const sessions = require('./generates/sessions')(users);
 const sales = require('./generates/sales')(users);
-const cashback = require('./generates/cashback')(users, sales);
+const totals = require('./generates/totals')(users, sales);
 
 const data = {
   users,
   sessions,
   sales,
-  cashback,
+  totals,
 }
 
 const json = JSON.stringify(data, null, 2);
