@@ -19,5 +19,8 @@
   "homepage": "https://github.com/thiagoskbnsk/api-mock-revendedor#readme",
   "devDependencies": {
     "faker": "^4.1.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
   }
 }
