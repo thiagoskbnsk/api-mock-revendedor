@@ -24,6 +24,13 @@ const users = [
     email: faker.internet.email(),
     taxpayer_identification: generateRandomNumberWithElevenDigits(),
     password: 123456
+  },
+  {
+    id: 4,
+    name: 'Test User',
+    email: 'test@test.com',
+    taxpayer_identification: generateRandomNumberWithElevenDigits(),
+    password: 123456
   }
 ];
 

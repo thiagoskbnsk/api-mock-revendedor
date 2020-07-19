@@ -21,7 +21,7 @@ const generateSalesObject = (users, numberOfRegisters) => {
       return calculateCashbackValue(this.value, this.cashback_percentage) 
     },
     status: generateRandomStatus(),
-    userId: getRandomUserId(users)
+    user_id: getRandomUserId(users)
   }));
 
   const salesWithCashbackValue = sales.map((currentValue) => ({

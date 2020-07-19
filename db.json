@@ -2,269 +2,293 @@
   "users": [
     {
       "id": 1,
-      "name": "Brook Fadel",
-      "email": "Mireille55@gmail.com",
-      "taxpayer_identification": 93570700826,
+      "name": "Alverta Will",
+      "email": "Emmitt.Kassulke63@gmail.com",
+      "taxpayer_identification": 51955013478,
       "password": 123456
     },
     {
       "id": 2,
-      "name": "Mr. Odell Smith",
-      "email": "Tara20@hotmail.com",
-      "taxpayer_identification": 49221505244,
+      "name": "Jacques Toy",
+      "email": "Maxime_Fisher21@gmail.com",
+      "taxpayer_identification": 13107026945,
       "password": 123456
     },
     {
       "id": 3,
-      "name": "Kayla Hagenes",
-      "email": "Ima_Waters@gmail.com",
-      "taxpayer_identification": 64987034875,
+      "name": "Myles Emmerich",
+      "email": "Jonatan.Gulgowski80@hotmail.com",
+      "taxpayer_identification": 17419938740,
+      "password": 123456
+    },
+    {
+      "id": 4,
+      "name": "Test User",
+      "email": "test@test.com",
+      "taxpayer_identification": 23177942030,
       "password": 123456
     }
   ],
   "sessions": [
     {
       "user": {
-        "name": "Brook Fadel",
-        "email": "Mireille55@gmail.com",
+        "name": "Alverta Will",
+        "email": "Emmitt.Kassulke63@gmail.com",
         "password": 123456
       },
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk1MTYzNzUxfQ.HNezRVFKP46d7nIeEQMUS616qgki5BbXvOun3MPQ41Y"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk1MTY2Nzk4fQ.2tcIqExt0nv5tCiOppqZcw_YH6J56eiEWIV0rk2CZQY"
     },
     {
       "user": {
-        "name": "Mr. Odell Smith",
-        "email": "Tara20@hotmail.com",
+        "name": "Jacques Toy",
+        "email": "Maxime_Fisher21@gmail.com",
         "password": 123456
       },
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTk1MTYzNzUxfQ.88w2dOcLpwqKTylwd-jgSfCOJ-tu9L41mLbfV7jFHIE"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTk1MTY2Nzk4fQ.rPuHgYDJEVBoVKXaN3rwVwljN9-vLCKl1GmTg6gHqqg"
     },
     {
       "user": {
-        "name": "Kayla Hagenes",
-        "email": "Ima_Waters@gmail.com",
+        "name": "Myles Emmerich",
+        "email": "Jonatan.Gulgowski80@hotmail.com",
         "password": 123456
       },
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTk1MTYzNzUxfQ.xDUPfQ3S4Xlt4yynuEMhKMP6nTemkUw2AuRI0PEccHM"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTk1MTY2Nzk4fQ.YL9uoyKzTlBWk7ewRX5FUXSvUkcAeFwl2BWW72x-rhg"
+    },
+    {
+      "user": {
+        "name": "Test User",
+        "email": "test@test.com",
+        "password": 123456
+      },
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNTk1MTY2Nzk4fQ._5EN4Q6ZYDUNY517VSc0keqkrex91ZXiFe-4ZYOMIYM"
     }
   ],
   "sales": [
     {
       "id": 0,
       "sale_cod": 0,
-      "value": 522,
-      "date": 1595163751306,
-      "cashback_percentage": 8,
-      "status": "Aprovado",
-      "userId": 1,
-      "cashback_value": "41.76"
+      "value": 946,
+      "date": 1595166798205,
+      "cashback_percentage": 9,
+      "status": "Reprovado",
+      "user_id": 2,
+      "cashback_value": "85.14"
     },
     {
       "id": 1,
       "sale_cod": 1,
-      "value": 345,
-      "date": 1595163751306,
+      "value": 882,
+      "date": 1595166798205,
       "cashback_percentage": 4,
-      "status": "Aprovado",
-      "userId": 1,
-      "cashback_value": "13.80"
+      "status": "Em análise",
+      "user_id": 1,
+      "cashback_value": "35.28"
     },
     {
       "id": 2,
       "sale_cod": 2,
-      "value": 669,
-      "date": 1595163751306,
-      "cashback_percentage": 5,
-      "status": "Reprovado",
-      "userId": 2,
-      "cashback_value": "33.45"
+      "value": 186,
+      "date": 1595166798205,
+      "cashback_percentage": 7,
+      "status": "Aprovado",
+      "user_id": 4,
+      "cashback_value": "13.02"
     },
     {
       "id": 3,
       "sale_cod": 3,
-      "value": 445,
-      "date": 1595163751306,
+      "value": 682,
+      "date": 1595166798205,
       "cashback_percentage": 2,
       "status": "Aprovado",
-      "userId": 2,
-      "cashback_value": "8.90"
+      "user_id": 3,
+      "cashback_value": "13.64"
     },
     {
       "id": 4,
       "sale_cod": 4,
-      "value": 437,
-      "date": 1595163751306,
-      "cashback_percentage": 3,
-      "status": "Reprovado",
-      "userId": 1,
-      "cashback_value": "13.11"
+      "value": 369,
+      "date": 1595166798205,
+      "cashback_percentage": 9,
+      "status": "Aprovado",
+      "user_id": 4,
+      "cashback_value": "33.21"
     },
     {
       "id": 5,
       "sale_cod": 5,
-      "value": 222,
-      "date": 1595163751306,
-      "cashback_percentage": 6,
-      "status": "Aprovado",
-      "userId": 1,
-      "cashback_value": "13.32"
+      "value": 700,
+      "date": 1595166798205,
+      "cashback_percentage": 3,
+      "status": "Em análise",
+      "user_id": 2,
+      "cashback_value": "21.00"
     },
     {
       "id": 6,
       "sale_cod": 6,
-      "value": 506,
-      "date": 1595163751306,
-      "cashback_percentage": 6,
-      "status": "Em análise",
-      "userId": 3,
-      "cashback_value": "30.36"
+      "value": 267,
+      "date": 1595166798205,
+      "cashback_percentage": 7,
+      "status": "Aprovado",
+      "user_id": 3,
+      "cashback_value": "18.69"
     },
     {
       "id": 7,
       "sale_cod": 7,
-      "value": 614,
-      "date": 1595163751306,
-      "cashback_percentage": 9,
+      "value": 563,
+      "date": 1595166798205,
+      "cashback_percentage": 5,
       "status": "Em análise",
-      "userId": 3,
-      "cashback_value": "55.26"
+      "user_id": 3,
+      "cashback_value": "28.15"
     },
     {
       "id": 8,
       "sale_cod": 8,
-      "value": 252,
-      "date": 1595163751306,
+      "value": 984,
+      "date": 1595166798205,
       "cashback_percentage": 7,
-      "status": "Aprovado",
-      "userId": 1,
-      "cashback_value": "17.64"
+      "status": "Reprovado",
+      "user_id": 2,
+      "cashback_value": "68.88"
     },
     {
       "id": 9,
       "sale_cod": 9,
-      "value": 944,
-      "date": 1595163751306,
-      "cashback_percentage": 3,
+      "value": 141,
+      "date": 1595166798205,
+      "cashback_percentage": 5,
       "status": "Em análise",
-      "userId": 2,
-      "cashback_value": "28.32"
+      "user_id": 3,
+      "cashback_value": "7.05"
     },
     {
       "id": 10,
       "sale_cod": 10,
-      "value": 795,
-      "date": 1595163751306,
+      "value": 902,
+      "date": 1595166798205,
       "cashback_percentage": 5,
-      "status": "Reprovado",
-      "userId": 3,
-      "cashback_value": "39.75"
+      "status": "Em análise",
+      "user_id": 3,
+      "cashback_value": "45.10"
     },
     {
       "id": 11,
       "sale_cod": 11,
-      "value": 265,
-      "date": 1595163751306,
+      "value": 62,
+      "date": 1595166798205,
       "cashback_percentage": 2,
-      "status": "Aprovado",
-      "userId": 1,
-      "cashback_value": "5.30"
+      "status": "Em análise",
+      "user_id": 2,
+      "cashback_value": "1.24"
     },
     {
       "id": 12,
       "sale_cod": 12,
-      "value": 432,
-      "date": 1595163751306,
-      "cashback_percentage": 7,
-      "status": "Reprovado",
-      "userId": 1,
-      "cashback_value": "30.24"
+      "value": 722,
+      "date": 1595166798205,
+      "cashback_percentage": 5,
+      "status": "Aprovado",
+      "user_id": 1,
+      "cashback_value": "36.10"
     },
     {
       "id": 13,
       "sale_cod": 13,
-      "value": 738,
-      "date": 1595163751306,
-      "cashback_percentage": 6,
-      "status": "Aprovado",
-      "userId": 2,
-      "cashback_value": "44.28"
+      "value": 114,
+      "date": 1595166798205,
+      "cashback_percentage": 8,
+      "status": "Reprovado",
+      "user_id": 3,
+      "cashback_value": "9.12"
     },
     {
       "id": 14,
       "sale_cod": 14,
-      "value": 813,
-      "date": 1595163751306,
-      "cashback_percentage": 7,
+      "value": 64,
+      "date": 1595166798205,
+      "cashback_percentage": 8,
       "status": "Reprovado",
-      "userId": 2,
-      "cashback_value": "56.91"
+      "user_id": 3,
+      "cashback_value": "5.12"
     },
     {
       "id": 15,
       "sale_cod": 15,
-      "value": 512,
-      "date": 1595163751306,
-      "cashback_percentage": 4,
+      "value": 227,
+      "date": 1595166798205,
+      "cashback_percentage": 3,
       "status": "Aprovado",
-      "userId": 3,
-      "cashback_value": "20.48"
+      "user_id": 2,
+      "cashback_value": "6.81"
     },
     {
       "id": 16,
       "sale_cod": 16,
-      "value": 623,
-      "date": 1595163751306,
-      "cashback_percentage": 4,
-      "status": "Reprovado",
-      "userId": 1,
-      "cashback_value": "24.92"
+      "value": 97,
+      "date": 1595166798205,
+      "cashback_percentage": 6,
+      "status": "Em análise",
+      "user_id": 1,
+      "cashback_value": "5.82"
     },
     {
       "id": 17,
       "sale_cod": 17,
-      "value": 394,
-      "date": 1595163751306,
+      "value": 715,
+      "date": 1595166798205,
       "cashback_percentage": 8,
       "status": "Em análise",
-      "userId": 3,
-      "cashback_value": "31.52"
+      "user_id": 3,
+      "cashback_value": "57.20"
     },
     {
       "id": 18,
       "sale_cod": 18,
-      "value": 260,
-      "date": 1595163751306,
-      "cashback_percentage": 5,
+      "value": 195,
+      "date": 1595166798205,
+      "cashback_percentage": 9,
       "status": "Aprovado",
-      "userId": 3,
-      "cashback_value": "13.00"
+      "user_id": 4,
+      "cashback_value": "17.55"
     },
     {
       "id": 19,
       "sale_cod": 19,
-      "value": 144,
-      "date": 1595163751306,
-      "cashback_percentage": 4,
-      "status": "Em análise",
-      "userId": 1,
-      "cashback_value": "5.76"
+      "value": 618,
+      "date": 1595166798205,
+      "cashback_percentage": 6,
+      "status": "Aprovado",
+      "user_id": 2,
+      "cashback_value": "37.08"
     }
   ],
   "cashback": [
     {
       "id": 1,
-      "userId": 1,
-      "total": "91.82"
+      "user_id": 1,
+      "totalCashback": "36.10",
+      "totalSales": "722.00"
     },
     {
       "id": 2,
-      "userId": 2,
-      "total": "53.18"
+      "user_id": 2,
+      "totalCashback": "43.89",
+      "totalSales": "845.00"
     },
     {
       "id": 3,
-      "userId": 3,
-      "total": "33.48"
+      "user_id": 3,
+      "totalCashback": "32.33",
+      "totalSales": "949.00"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "totalCashback": "63.78",
+      "totalSales": "750.00"
     }
   ]
 }
