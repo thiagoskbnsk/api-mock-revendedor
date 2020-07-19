@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const sessions = (users) => {
   const createFakeSessions = users.map(currentUser => {
-    const { taxpayer_identification, id, ...rest } = currentUser;
+    const { taxpayer_identification, ...rest } = currentUser;
 
     return {
       user: rest,
