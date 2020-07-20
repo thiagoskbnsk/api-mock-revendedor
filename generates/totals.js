@@ -15,7 +15,7 @@ const generateTotalObject = (users, sales) => {
           total.approved++;
           break;
         }
-        case 'Em análise': {
+        case 'Em validação': {
           total.analysis++;
           break;
         }

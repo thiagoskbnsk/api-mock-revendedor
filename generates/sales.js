@@ -1,6 +1,6 @@
 const generateRandomNumber = require('../utils').generateRandomNumber;
 
-const salesStaus = ['Aprovado', 'Em análise', 'Reprovado'];
+const salesStaus = ['Aprovado', 'Em validação', 'Reprovado'];
 
 const generateCashbackPercentage = () => generateRandomNumber(2, 8);
 const generateSalesValue = () => generateRandomNumber(50, 950);
